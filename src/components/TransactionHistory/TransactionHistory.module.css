@@ -1,0 +1,24 @@
+.tHistory {
+  /* display: flex; */
+  width: 400px;
+}
+
+.head {
+  background-color: rgb(125, 197, 255);
+  height: 50px;
+  color: white;
+  font-weight: 700;
+}
+
+.body {
+  height: 40px;
+}
+
+.body:nth-child(even) {
+  background: rgb(213, 235, 253);
+}
+
+.td {
+  padding-left: 10px;
+  color: gray;
+}
