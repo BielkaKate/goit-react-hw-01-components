@@ -15,5 +15,5 @@ return (
 )
 }
 FriendList.propTypes = {
-    friends: propTypes.arrayOf(shape),
+    friends: propTypes.arrayOf(shape).isRequired,
 }

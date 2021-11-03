@@ -1,32 +1,29 @@
-import UserProfile from "./components/Profile/Profile"
-import user from "./user.json"
+import Profile from "./components/Profile/Profile"
+import user from "./data/user.json"
 
 
 
 import Statistics from "./components/Statistics/Statistics"
-import statData from "./statistical-data.json"
+import statData from "./data/statistical-data.json"
 
 
 import FriendList from "./components/FriendList/FriendList"
-import friends from "./friends.json"
+import friends from "./data/friends.json"
 
 import TransactionHistory from "./components/TransactionHistory/TransactionHistory"
-import transactions from "./transactions.json"
+import transactions from "./data/transactions.json"
 
 
 export default function App(){
     return(
     <div className="container">
       
-        <UserProfile 
+        <Profile 
         avatar = {user.avatar}
         name = {user.name} 
         tag = {user.tag} 
         location = {user.location} 
         stats = {user.stats}
-        followers = {user.stats.folowers}
-        views = {user.stats.views}
-        likes = {user.stats.likes}
         />
       
         

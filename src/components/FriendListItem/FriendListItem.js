@@ -16,8 +16,8 @@ return (
 }
 
 FriendListItem.propTypes = {
-    id: propTypes.string,
-    isOnline: propTypes.bool,
-    avatar: propTypes.string,
-    name: propTypes.string,  
+    id: propTypes.string.isRequired,
+    isOnline: propTypes.bool.isRequired,
+    avatar: propTypes.string.isRequired,
+    name: propTypes.string.isRequired,  
 }
